@@ -3,23 +3,24 @@ import Data.Maybe
 
 -- retorna o subvetor incluindo o elemento posição índice e lim elementos a esquerda e a direita
 neib :: [a] -> Int -> Int -> [a]
-neib xs index lim = ...
+neib xs index lim =  drop (index - lim) $ take (index + lim + 1) xs
 
 -- verifica se o valor existe no vetor
 exists :: Eq a => a -> [a] -> Bool
-exists y xs = ...
+exists y xs = isJust $ elemIndex y xs
 
 -- converte de digito para char
 dig2char :: (Eq a, Num a, Enum a) => a -> Char
-dig2char dig = ...
+dig2char dig = fromJust (lookup dig (zip [0..9] ['0'..'9']))
 
 -- verifica se esse valor pode ser inserido nesse índice
 fit :: (String, Int) ->  Int -> Int -> Bool
-fit (xs, lim) index value = ...
+fit (xs, lim) index value = not $ exists (dig2char value) $ neib xs index lim
 
 -- pega as posições de todos os .
 getHoles :: String -> [Int]
-getHoles xs = ...
+getHoles xs =  [snd x | x <- zip xs [0..], fst x == '.']
+
 
 -- insere esse valor nesse index e retorna o novo vetor resultante
 set :: String -> Int -> Int -> String
@@ -30,8 +31,8 @@ set xs index value = ...
 -- problema (xs, lim)
 -- holes: lista de posições a serem preenchidas
 -- hindex: posicao atual no vetor de holes
-solve :: (String, Int) -> [Int] -> Int -> Maybe String
-solve (xs, lim) holes hindex = ...
+solve :: (String, Int) -> [Int] -> Int -> String
+set xs index value = take index xs ++ [dig2char value] ++ drop (index + 1) xs
 
 -- prepara a entrada para a função recursiva de resolução
 mainSolver :: String -> Int -> String
