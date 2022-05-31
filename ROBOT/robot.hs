@@ -24,25 +24,26 @@ getHoles xs =  [snd x | x <- zip xs [0..], fst x == '.']
 
 -- insere esse valor nesse index e retorna o novo vetor resultante
 set :: String -> Int -> Int -> String
-set xs index value = ...
+set xs index value = take index xs ++ [dig2char value] ++ drop (index + 1) xs
 
 -- tenta resolver o problema para essa posição
 -- se é possível resolver, retorna Just resposta, senão Nothing
 -- problema (xs, lim)
 -- holes: lista de posições a serem preenchidas
 -- hindex: posicao atual no vetor de holes
-solve :: (String, Int) -> [Int] -> Int -> String
-set xs index value = take index xs ++ [dig2char value] ++ drop (index + 1) xs
 
--- prepara a entrada para a função recursiva de resolução
-mainSolver :: String -> Int -> String
-mainSolver xs lim = ...
+-- solve :: (String, Int) -> [Int] -> Int -> String
+-- set xs index value = take index xs ++ [dig2char value] ++ drop (index + 1) xs
 
-main :: IO ()
-main = do
-    xs <- getLine
-    lim <- readLn :: IO Int
-    putStrLn $ mainSolver xs lim
+-- -- prepara a entrada para a função recursiva de resolução
+-- mainSolver :: String -> Int -> String
+-- mainSolver xs lim = ...
+
+-- main :: IO ()
+-- main = do
+--     xs <- getLine
+--     lim <- readLn :: IO Int
+--     putStrLn $ mainSolver xs lim
 
 
 ------------------------------------------------------------------------------------
@@ -81,10 +82,10 @@ getHolesTest = do
     print $ getHoles "12.3.4" == [2,4]
     print $ getHoles "...3.4" == [0,1,2,4]
 
-mainTest :: IO ()
-mainTest = do
-    print $ mainSolver "01.2." 3 == "01320"
-    print $ mainSolver ".0..231..5" 5 == "1045231045"
-    print $ mainSolver "2..0..............3..........." 3 == "213021302130213021302130213021"
-    print $ mainSolver "0..32..41." 5 == "0413250413"
-    print $ mainSolver "9....7.620.5318....." 9 == "95318746209531874620"
+-- mainTest :: IO ()
+-- mainTest = do
+--     print $ mainSolver "01.2." 3 == "01320"
+--     print $ mainSolver ".0..231..5" 5 == "1045231045"
+--     print $ mainSolver "2..0..............3..........." 3 == "213021302130213021302130213021"
+--     print $ mainSolver "0..32..41." 5 == "0413250413"
+--     print $ mainSolver "9....7.620.5318....." 9 == "95318746209531874620"
