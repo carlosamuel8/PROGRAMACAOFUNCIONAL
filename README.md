@@ -1,7 +1,5 @@
 # Repositório da disciplina de Programação Funcional
 
-# Atividades de POO (Programação Orientada a Objetos)
-
 | [Aquecimento](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/AQUECIMENTO) |
 | -- | 
 
