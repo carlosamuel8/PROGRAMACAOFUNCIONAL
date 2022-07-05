@@ -17,8 +17,13 @@
 # Repositório da Disciplina de Programação Funcional-2022.1
 
 
-<!-- ## PROVA
-- [prova](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/countNeg.hs)  -->
+ ## PROVA
+- [questão 1](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/1_indexof.hs)
+- [questão 2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/2_indexfold.hs) 
+- [questão 3](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/3_triangulo.hs) 
+- [questão 4](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/4_poligno.hs) 
+- [questão 5](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/5_combinacoes.hs) 
+
 
 
 
@@ -27,7 +32,7 @@
 - [@004 countNeg](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/countNeg.hs) 
 - [@005 final](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/final.hs) 
 - [@002 contarIguais - Contar quantos de 3 valores são iguais ](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/contarIguais.hs) 
-- [@006 interior - miolo da lista](base/006/Readme.md) 
+- [@006 interior - miolo da lista](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/interior.hs) 
 - [@008 gangorra](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/interior.hs) 
 - [@010 min2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/min2.hs) 
 - [@011 min3](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/min3.hs) 
