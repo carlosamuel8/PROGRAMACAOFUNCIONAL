@@ -9,6 +9,5 @@ auxiliar n xs
 listacc xs = auxiliar 0 xs 
 
 
-
 main = do
     print $ listacc [1,3,4]

@@ -5,4 +5,5 @@ altera_desordenado n
 alter x = reverse $ altera_desordenado x
 
 main = do
-    print $ alter 4
+    a <- readLn :: IO Int
+    print $ alter a
