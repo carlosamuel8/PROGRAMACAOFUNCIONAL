@@ -14,7 +14,7 @@
 
 
 
-# Tópicos
+# REPOSITÓRIO DA DISCIPLICA DE PROGRAMAÇÃO FUNCIONAL 2022.1
 
 ## 03. Aquecimento
 - [@004 countNeg](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/countNeg.hs) 
@@ -27,7 +27,6 @@
 - [@000 soma2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/soma.hs) 
 
 ## 04. Operações básicas
-Operações em listas, Comprehension List, Where, Guards
 - [@014 @ !!](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/OPERAÇÕES_BÁSICAS/!!.HS) 
 - [@015 @ elem](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/OPERAÇÕES_BÁSICAS/elem.hs) 
 - [@016 @ length](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/OPERAÇÕES_BÁSICAS/length.hs) 
