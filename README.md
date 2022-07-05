@@ -44,61 +44,58 @@
 - [@054 swap - trocando dois elementos de uma lista](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/OPERAÇÕES_BÁSICAS/swap.hs) 
 
 
-<!-- 
+
 ## 05. Recursão
-- [@506 Biblioteca Transformações e Busca com predicados](base/506/Readme.md) 
-- [@013 fibonacci](base/013/Readme.md) 
-- [@018 frequencia](base/018/Readme.md) 
-- [@019 unico](base/019/Readme.md) 
-- [@020 maioresQue](base/020/Readme.md) 
-- [@021 concatena](base/021/Readme.md) 
-- [@026 alter](base/026/Readme.md) 
-- [@027 reverso](base/027/Readme.md) 
-- [@025 menores](base/025/Readme.md) 
-- [@070 remover o maior elemento](base/070/Readme.md) 
-- [@029 intercal - intercalar duas listas](base/029/Readme.md) 
-- [@032 sequencia](base/032/Readme.md) 
-- [@037 rotEsq](base/037/Readme.md) 
-- [@038 rotDir](base/038/Readme.md) 
-- [@048 quadperf](base/048/Readme.md) 
-- [@053 deletee - remover primeira ocorrência](base/053/Readme.md) 
-- [@080 decompor](base/080/Readme.md) 
+- [@013 fibonacci](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/fibonacci.hs) 
+- [@018 frequencia](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/frequencia.hs) 
+- [@019 unico](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/unico.hs) 
+- [@020 maioresQue](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/maioresque.hs) 
+- [@021 concatena](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/concatena.hs) 
+- [@026 alter](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/alter.hs) 
+- [@027 reverso](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/reverso.hs) 
+- [@025 menores](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/menores.hs) 
+- [@070 remover o maior elemento](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/removermaior.hs) 
+- [@029 intercal - intercalar duas listas](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/intercala.hs) 
+- [@032 sequencia](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/sequencia.hs) 
+- [@037 rotEsq](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/rotEsq.hs) 
+- [@038 rotDir](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/rotDir.hs) 
+- [@048 quadperf](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/quadradoperfeito.hs) 
+- [@053 deletee - remover primeira ocorrência](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/delete.hs) 
+- [@080 decompor](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/05-RECURSAO/decompor.hs) 
+ 
+ ## 06. Data.List && Prelude 
+- [@071 @ map](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/map.hs) 
+- [@073 @ filter](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/filter.hs) 
+- [@022 @ tails - Data.List.tails](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/tails.hs) 
+- [@024 @ nub - Data.List.nub](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/nub.hs) 
 
-## 06. Data.List && Prelude
-
-- [@501 Biblioteca Data.List](base/501/Readme.md) 
-- [@071 @ map](base/071/Readme.md) 
-- [@073 @ filter](base/073/Readme.md)  [](#recursão)
-- [@022 @ tails - Data.List.tails](base/022/Readme.md) 
-- [@024 @ nub - Data.List.nub](base/024/Readme.md) 
-
-## 07. Zip e Fold
+<!-- ## 07. Zip e Fold
 - [@064 produtoEscalar - utilizando a função zip](base/064/Readme.md) 
 - [@065 indices - busca posições do elemento](base/065/Readme.md) 
 - [@067 @ concatMap - Data.List.concatMap](base/067/Readme.md) 
 - [@043 ehPrimo](base/043/Readme.md) 
 - [@077 vigenere](base/077/Readme.md) 
 - [@049 base - mudança de base](base/049/Readme.md) 
-- [@083 fraction reduce](base/083/Readme.md) 
+- [@083 fraction reduce](base/083/Readme.md)  -->
 
 ## 08 Maybe
 
-- [@069 @ elemIndex - Data.List](base/069/Readme.md) 
-- [@081 somaMaybe](base/081/Readme.md) 
-- [@082 filterMaybe](base/082/Readme.md) 
-
+- [@069 @ elemIndex - Data.List](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/elemindex.hs) 
+- [@081 somaMaybe](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/soma.hs) 
+- [@082 filterMaybe](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/filtermaybe.hs) 
+<!-- 
 ## 10. Strings
 - [@503 Métodos de string](base/503/Readme.md) 
 - [@039 upper](base/039/Readme.md) 
 - [@040 titulo](base/040/Readme.md) 
 - [@041 selec - apenas as chaves selecionadas](base/041/Readme.md) 
-- [@042 isPalind - verificar palíndromo](base/042/Readme.md) 
+- [@042 isPalind - verificar palíndromo](base/042/Readme.md)  -->
 
 ## 11. Math
-- [@044 sdig - soma dos dígitos](base/044/Readme.md) 
-- [@052 rev - inverter inteiro](base/052/Readme.md) 
-- [@049 base - mudança de base](base/049/Readme.md) 
-
+- [@044 sdig - soma dos dígitos](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/somadig.hs) 
+- [@052 rev - inverter inteiro](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/inverter.hs) 
+- [@049 base - mudança de base](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/mudancadebase2.hs) 
+<!-- 
 ## 12. Infinite 
 - [@502 Listas Infinitas](base/502/Readme.md) 
 - [@072 @ repeat ](base/072/Readme.md) 
@@ -107,25 +104,18 @@
 - [@075 expoentes - Contar quantas vezes um número divide o outro](base/075/Readme.md) 
 - [@058 factors - fatores de um número](base/058/Readme.md) 
 - [@080 decompor](base/080/Readme.md) 
-- [@049 base - mudança de base](base/049/Readme.md) 
+- [@049 base - mudança de base](base/049/Readme.md)  -->
 
 ## 13. Ordenação
-- [@046 compac](base/046/Readme.md) 
-- [@003 vetFib](base/003/Readme.md) 
-- [@034 ordenada](base/034/Readme.md) 
-- [@033 inserir - inserir ordenado](base/033/Readme.md) 
-- [@035 qsort](base/035/Readme.md) 
-- [@036 merge - recursão](base/036/Readme.md) 
-
+- [@046 compac](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/compac.hs) 
+- [@003 vetFib](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/vetFib.hs) 
+- [@034 ordenada](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/ordenada.hs) 
+- [@033 inserir - inserir ordenado](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/inserir.hs) 
+- [@035 qsort](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/qsort.hs) 
+- [@036 merge - recursão](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/merge.hs) 
+<!-- 
 ## 14. Novas
 
 - [@507 Carro em Haskell](base/507/Readme.md) 
 - [@078 Armário -  Either, Map](base/078/Readme.md) 
-- [@508 Árvores](base/508/Readme.md) 
-
-## Challenges
-- [@088 L2 - Comprando TV parcelado](base/088/Readme.md) 
-- [@087 L3 - Blackjack 21!](base/087/Readme.md) 
-- [@086 L1 - Pedra na lua](base/086/Readme.md) 
-- [@084 L2 - {robot} distance](base/084/Readme.md) 
-- [@085 L2 - {robot} queimada ](base/085/Readme.md)  -->
+- [@508 Árvores](base/508/Readme.md)  -->
