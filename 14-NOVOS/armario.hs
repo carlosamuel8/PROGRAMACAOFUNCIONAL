@@ -14,8 +14,8 @@ type Armarios = Map.Map Int (Estado, Codigo)
 
 consulta :: Int -> Armarios -> Maybe Estado 
 consulta indice armarios 
-  | isNothing armario = Nothing                                          --  se o armário não existir retorna Nothing
-  | otherwise = Just $ fst $ fromJust armario                             -- se o armario existir retorna o estado do armario
+  | isNothing armario = Nothing                                                               --  se o armário não existir retorna Nothing
+  | otherwise = Just $ fst $ fromJust armario                                                -- se o armario existir retorna o estado do armario
   where 
     armario = Map.lookup indice armarios 
  
@@ -37,7 +37,7 @@ pegarCodigo indice armarios
   | otherwise =                                                                 -- armario existe 
     if Alugado == fst armario                                                   -- verifica se está alugado, e se tiver retorna que está alugado
       then Left $ "Armario " ++ show indice ++ " ja esta ocupado" 
-      else Right $ snd armario                                                  -- se nao tiver alugado retorna o codigo do armario
+    else Right $ snd armario                                                  -- se nao tiver alugado retorna o codigo do armario
   where 
     eitherArmario = pegarArmario indice armarios 
     armario = fromRight (Alugado, "") eitherArmario 
@@ -57,15 +57,15 @@ aluguel indice armarios
 -- Se o armário não estiver alugado ou se o código estiver incorreto avise utilizando o Left. 
 devolucao :: Int -> Codigo -> Armarios -> Either String Armarios 
 devolucao indice codigo armarios 
-  | isLeft eitherArmario = Left $ fromLeft "" eitherArmario                                            -- se o armário não existir retorna erro 
-  | otherwise =                                                                                        -- caso exista
+  | isLeft eitherArmario = Left $ fromLeft "" eitherArmario                                             -- se o armário não existir retorna erro 
+  | otherwise =                                                                                         -- caso exista
         if snd armario == codigo then                                                                   -- verifica se o código está correto
-            if Livre == fst armario then Left $ "Armario " ++ show indice ++ " nao esta ocupado"       -- verificando se o armário está alugado 
-                else Right $ insert indice (Livre, codigo) armarios 
-            else  Left "Codigo incorreto"
+            if Livre == fst armario then Left $ "Armario " ++ show indice ++ " nao esta ocupado"        -- verifica se o armário está alugado 
+                else Right $ insert indice (Livre, codigo) armarios                                     -- retorna o armário com o estado alterado
+        else  Left "Codigo incorreto"
   where 
-    eitherArmario = pegarArmario indice armarios                   -- pega o either string ou armário                                               
-    armario = fromRight (Alugado, "") eitherArmario                 -- pega armario
+    eitherArmario = pegarArmario indice armarios                                                         -- pega o either string ou armário                                               
+    armario = fromRight (Alugado, "") eitherArmario                                                      -- pega armario
  
 lockers :: Armarios                 
 lockers = 
