@@ -14,7 +14,14 @@
 
 
 
-# REPOSITÓRIO DA DISCIPLICA DE PROGRAMAÇÃO FUNCIONAL 2022.1
+# Repositório da Disciplina de Programação Funcional-2022.1
+
+
+<!-- ## PROVA
+- [prova](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/countNeg.hs)  -->
+
+
+
 
 ## 03. Aquecimento
 - [@004 countNeg](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/countNeg.hs) 
@@ -69,42 +76,40 @@
 - [@022 @ tails - Data.List.tails](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/tails.hs) 
 - [@024 @ nub - Data.List.nub](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/06-DATALIST/nub.hs) 
 
-<!-- ## 07. Zip e Fold
-- [@064 produtoEscalar - utilizando a função zip](base/064/Readme.md) 
-- [@065 indices - busca posições do elemento](base/065/Readme.md) 
-- [@067 @ concatMap - Data.List.concatMap](base/067/Readme.md) 
-- [@043 ehPrimo](base/043/Readme.md) 
-- [@077 vigenere](base/077/Readme.md) 
-- [@049 base - mudança de base](base/049/Readme.md) 
-- [@083 fraction reduce](base/083/Readme.md)  -->
+## 07. Zip e Fold
+- [@064 produtoEscalar - utilizando a função zip](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/produdoescalar.hs) 
+- [@065 indices - busca posições do elemento](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/indices.hs) 
+- [@067 @ concatMap - Data.List.concatMap](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/concatmap.hs) 
+- [@043 ehPrimo](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/ehprimo.hs) 
+<!-- - [@077 vigenere](base/077/Readme.md)  -->
+- [@049 base - mudança de base](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/mudancadebase.hs) 
+- [@083 fraction reduce](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/07-ZIPEFOLD/reduce.hs) 
 
 ## 08 Maybe
 
 - [@069 @ elemIndex - Data.List](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/elemindex.hs) 
 - [@081 somaMaybe](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/soma.hs) 
 - [@082 filterMaybe](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/08-MAYBE/filtermaybe.hs) 
-<!-- 
+
 ## 10. Strings
-- [@503 Métodos de string](base/503/Readme.md) 
-- [@039 upper](base/039/Readme.md) 
-- [@040 titulo](base/040/Readme.md) 
-- [@041 selec - apenas as chaves selecionadas](base/041/Readme.md) 
-- [@042 isPalind - verificar palíndromo](base/042/Readme.md)  -->
+- [@039 upper](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/10-STRINGS/upper.hs) 
+<!-- - [@040 titulo](base/040/Readme.md)  -->
+- [@041 selec - apenas as chaves selecionadas](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/10-STRINGS/selec.hs) 
+- [@042 isPalind - verificar palíndromo](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/10-STRINGS/palindromo.hs) 
 
 ## 11. Math
 - [@044 sdig - soma dos dígitos](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/somadig.hs) 
 - [@052 rev - inverter inteiro](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/inverter.hs) 
 - [@049 base - mudança de base](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/11-MATH/mudancadebase2.hs) 
-<!-- 
+
 ## 12. Infinite 
-- [@502 Listas Infinitas](base/502/Readme.md) 
-- [@072 @ repeat ](base/072/Readme.md) 
-- [@074 @ replicate](base/074/Readme.md) 
-- [@076 geradores](base/076/Readme.md) 
-- [@075 expoentes - Contar quantas vezes um número divide o outro](base/075/Readme.md) 
-- [@058 factors - fatores de um número](base/058/Readme.md) 
-- [@080 decompor](base/080/Readme.md) 
-- [@049 base - mudança de base](base/049/Readme.md)  -->
+- [@072 @ repeat ](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/repeat.hs) 
+- [@074 @ replicate](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/replicate.hs) 
+- [@076 geradores](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/geradores.hs) 
+- [@075 expoentes - Contar quantas vezes um número divide o outro](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/expoentes.hs) 
+<!-- - [@058 factors - fatores de um número]()  -->
+- [@080 decompor](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/decompor.hs) 
+- [@049 base - mudança de base](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/12-INFINITE/mudancadebase3.hs) 
 
 ## 13. Ordenação
 - [@046 compac](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/compac.hs) 
@@ -113,9 +118,7 @@
 - [@033 inserir - inserir ordenado](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/inserir.hs) 
 - [@035 qsort](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/qsort.hs) 
 - [@036 merge - recursão](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/13-ORDENACAO/merge.hs) 
-<!-- 
-## 14. Novas
 
-- [@507 Carro em Haskell](base/507/Readme.md) 
-- [@078 Armário -  Either, Map](base/078/Readme.md) 
-- [@508 Árvores](base/508/Readme.md)  -->
+## 14. Novas
+- [@507 Carro em Haskell](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/carro.hs) 
+- [@078 Armário -  Either, Map](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/armario.hs) 
