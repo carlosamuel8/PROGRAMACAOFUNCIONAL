@@ -2,7 +2,6 @@
 # Repositório da Disciplina de Programação Funcional-2022.1
  <!-- Repositório da Disciplina de Programação Funcional-2022.1 -->
 
-<span style="color:red">some # This is Red Bold. text</span
 
 
 ## :open_file_folder: Sumário
