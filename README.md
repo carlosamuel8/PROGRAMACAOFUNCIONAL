@@ -1,8 +1,7 @@
 
 
 # Repositório da Disciplina de Programação Funcional-2022.1
-## :file: Funcionalidades do projeto
-# Sumário
+## :open_file_folder: Sumário
 
 <!--TOC_BEGIN-->
 - [Prova](#PROVA)
