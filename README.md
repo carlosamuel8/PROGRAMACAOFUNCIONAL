@@ -5,9 +5,8 @@
 # Sumário
 
 <!--TOC_BEGIN-->
-- [Prova](#00.PROVA)
-- [testes](#00.Arquivos-de-teste-ou-de-aula)
-- [02. Apostilas, Listas e Slides](#02-apostilas-listas-e-slides)
+- [Prova](#PROVA)
+- [testes](#Arquivos-de-teste-ou-de-aula)
 - [03. Aquecimento](#03.Aquecimento)
 - [04. Operações básicas](#04-operações-básicas)
 - [05. Recursão](#05-recursão)
@@ -24,7 +23,7 @@
 
 
 
- ## 00.PROVA
+ ## PROVA
 - [questão 1](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/1_indexof.hs)
 - [questão 2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/2_indexfold.hs) 
 - [questão 3](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/3_triangulo.hs) 
@@ -32,7 +31,7 @@
 - [questão 5](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/5_combinacoes.hs) 
 
 
-## 00.Arquivos-de-teste-ou-de-aula
+## Arquivos de teste ou de aula
 - [:D](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/TESTESEAULAS)
 
 
