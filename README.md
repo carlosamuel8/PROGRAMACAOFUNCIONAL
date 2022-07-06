@@ -1,6 +1,8 @@
 
+# {c:red}Repositório da Disciplina de Programação Funcional-2022.1{/c}
+ <!-- Repositório da Disciplina de Programação Funcional-2022.1 -->
 
-# Repositório da Disciplina de Programação Funcional-2022.1
+
 ## :open_file_folder: Sumário
 
 <!--TOC_BEGIN-->
