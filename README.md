@@ -26,11 +26,7 @@
 
 
 ## Arquivos de teste ou de aula
-- [questão 1](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/1_indexof.hs)
-- [questão 2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/2_indexfold.hs) 
-- [questão 3](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/3_triangulo.hs) 
-- [questão 4](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/4_poligno.hs) 
-- [questão 5](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/5_combinacoes.hs) 
+- [:D](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/TESTESEAULAS)
 
 
 
