@@ -1,20 +1,27 @@
-<!-- # Repositório da disciplina de Programação Funcional
-
-| [Aquecimento](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/AQUECIMENTO) |
-| -- | 
-
-|[Distance](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/DISTANCE)|
-| -- | 
-
-|[Operações básicas](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/OPERAÇÕES_BÁSICAS)|
-| -- | 
-
-|[Recursão](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/tree/master/RECURSAO) |
-| -- |  -->
-
 
 
 # Repositório da Disciplina de Programação Funcional-2022.1
+
+# Sumário
+
+<!--TOC_BEGIN-->
+- [Prova]( # PROVA)
+- [testes](# Arquivos de teste ou de aula)
+- [02. Apostilas, Listas e Slides](#02-apostilas-listas-e-slides)
+- [03. Aquecimento](## 03. Aquecimento)
+- [04. Operações básicas](#04-operações-básicas)
+- [05. Recursão](#05-recursão)
+- [06. Data.List && Prelude](#06-datalist--prelude)
+- [07. Zip e Fold](#07-zip-e-fold)
+- [08 Maybe](#08-maybe)
+- [10. Strings](#10-strings)
+- [11. Math](#11-math)
+- [12. Infinite ](#12-infinite)
+- [13. Ordenação](#13-ordenação)
+- [14. Novas](#14-novas)
+<!--TOC_END-->
+
+
 
 
  ## PROVA
