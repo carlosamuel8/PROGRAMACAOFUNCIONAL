@@ -2,11 +2,16 @@
 # Repositório da Disciplina de Programação Funcional-2022.1
  <!-- Repositório da Disciplina de Programação Funcional-2022.1 -->
 
+
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+p{color:Black !important;}
+</style>
+
 # Color Test Document
 
-<style>H1{color:Blue;}</style>
-<style>H2{color:DarkOrange;}</style>
-<style>p{color:Black;}</style>
+## Second Heading
 
 
 ## :open_file_folder: Sumário
