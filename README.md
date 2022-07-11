@@ -20,6 +20,7 @@
 - [12. Infinite ](#12-infinite)
 - [13. Ordenação](#13-ordenação)
 - [14. Novas](#14-novas)
+- [Considerações Finais](#Considerações-Finais)
 <!--TOC_END-->
 
 
@@ -138,6 +139,8 @@
 - [@507 Carro em Haskell](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/carro.hs) 
 - [@078 Armário -  Either, Map](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/armario.hs) 
 
+
+## Considerações Finais
 
 Esta foi uma disciplina bastante desafiadora no começo, pois fez eu me questionar de tudo que eu sabia sobre programação, pois por possuir um paradigma totalmente diferente do que eu estava acostumado, fez que quebrar muito a cabeça na tentativa de tentar "traduzir" o que eu pensava em fazer em outras linguagens.  Acredito inclusive que esse seja o ponto principal, não é necessário realizar essa tradução e sim pensar "de forma funcional". 
 Ao longo da disciplina tive dificuldades em alguns momentos, e por diversas vezes pedi ajuda a colegas e recorri a comunidades de programação.
