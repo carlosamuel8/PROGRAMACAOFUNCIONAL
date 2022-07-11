@@ -140,8 +140,8 @@
 
 
 ## Challenges
-- [@086 L1 - Pedra na lua](base/086/Readme.md) 
-- [@084 L2 - {robot} distance](base/084/Readme.md) 
+- [@086 L1 - Pedra na lua](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/CHALLENGES/pedra.hs) 
+- [@084 L2 - {robot} distance](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/CHALLENGES/distance.hs) 
 
 
 ## Considerações Finais
