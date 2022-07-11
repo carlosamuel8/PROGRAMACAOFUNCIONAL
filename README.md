@@ -20,6 +20,7 @@
 - [12. Infinite ](#12-infinite)
 - [13. Ordenação](#13-ordenação)
 - [14. Novas](#14-novas)
+- [Challenges](#challenges)
 - [Considerações Finais](#Considerações-Finais)
 <!--TOC_END-->
 
@@ -136,6 +137,11 @@
 ## 14. Novas
 - [@507 Carro em Haskell](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/carro.hs) 
 - [@078 Armário -  Either, Map](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/14-NOVOS/armario.hs) 
+
+
+## Challenges
+- [@086 L1 - Pedra na lua](base/086/Readme.md) 
+- [@084 L2 - {robot} distance](base/084/Readme.md) 
 
 
 ## Considerações Finais
