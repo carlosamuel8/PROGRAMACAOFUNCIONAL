@@ -24,7 +24,6 @@
 <!--TOC_END-->
 
 
-
  ## PROVA
 - [questão 1](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/1_indexof.hs)
 - [questão 2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/PROVA/2_indexfold.hs) 
