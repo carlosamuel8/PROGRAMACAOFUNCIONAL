@@ -2,10 +2,10 @@ import Control.Monad ( replicateM )
 
 --FEITA EM SALA
 
--- 1) [String] -> [(Int, Int)] criar vetor de tuplas
--- 2) [(Int, Int)] -> [(Int,(Int, Int))] grudar tupla no indice
--- 3) filtrar as jogadas desclassificadas
--- 4) pegar o melhor dos elementos -> fold, recursão
+-- [String] -> [(Int, Int)] criar vetor de tuplas
+-- [(Int, Int)] -> [(Int,(Int, Int))] grudar tupla no indice
+-- filtrar as jogadas desclassificadas
+-- pegar o melhor dos elementos -> fold, recursão
 
 toInt :: String -> Int
 toInt x = read x :: Int
