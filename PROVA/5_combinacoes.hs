@@ -1,0 +1,2 @@
+--- nao fiz
+-- consultei a dica

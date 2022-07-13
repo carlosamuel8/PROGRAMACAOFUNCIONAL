@@ -11,11 +11,11 @@ exists y xs = isJust $ elemIndex y xs
 
 -- converte de digito para char
 dig2char :: (Eq a, Num a, Enum a) => a -> Char
-dig2char dig = fromJust $ lookup dig $ zip [0..] "0123456789"
+dig2char dig = snd $ head $ filter (\x -> fst x == dig) $ zip [0 .. 9] "0123456789"
 
 -- verifica se esse valor pode ser inserido nesse índice
 fit :: (String, Int) ->  Int -> Int -> Bool
-fit (xs, lim) index value = not $ exists (dig2char value) $ (neib xs index lim)
+fit (xs, lim) index value = not (any (== dig2char value) (neib xs index lim))
 
 -- pega as posições de todos os .
 getHoles :: String -> [Int]
@@ -54,11 +54,11 @@ solve (xs, lim) holes hindex
 mainSolver :: String -> Int -> String
 mainSolver xs lim = fromJust $ solve (xs, lim) (getHoles xs) 0
 
-main :: IO ()
-main = do
-    xs <- getLine
-    lim <- readLn :: IO Int
-    putStrLn $ mainSolver xs lim
+-- main :: IO ()
+-- main = do
+--     xs <- getLine
+--     lim <- readLn :: IO Int
+--     putStrLn $ mainSolver xs lim
 
 
 ------------------------------------------------------------------------------------
