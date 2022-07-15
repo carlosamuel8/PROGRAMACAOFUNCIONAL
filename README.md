@@ -41,7 +41,7 @@
 ## 03. Aquecimento
 - [countNeg](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/countNeg.hs) 
 - [final](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/final.hs) 
-- [contarIguais](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/AQUECIMENTO/contarIguais.hs) 
+- [contarIguais](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/contarIguais.hs) 
 - [interior](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/interior.hs) 
 - [gangorra](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/gangorra.hs) 
 - [min2](https://github.com/carlosamuel8/PROGRAMACAOFUNCIONAL/blob/master/03-AQUECIMENTO/min2.hs) 
