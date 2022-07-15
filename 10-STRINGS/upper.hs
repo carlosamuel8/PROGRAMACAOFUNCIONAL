@@ -1,7 +1,5 @@
 
 import Data.Maybe 
-
-
  
 aux char
     | elem char ['a'..'z'] = fromJust (lookup char alfabeto) 
